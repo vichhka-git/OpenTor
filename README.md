@@ -1,11 +1,17 @@
 # OpenTor 🧅
 
+[![skills.sh](https://skills.sh/badge/vichhka-git/OpenTor)](https://skills.sh/vichhka-git/OpenTor)
+
 **Tor / Dark Web Access for AI Agents — OpenCode & Claude Code Skill**
 
 OpenTor gives LLMs full access to the Tor network and .onion hidden services.
 Not a standalone tool — an **orchestrator-conductor architecture** where the LLM
 is the intelligence and the Python modules provide mechanical transport, search,
 and entity extraction.
+
+```bash
+npx skills add vichhka-git/OpenTor    # install via skills.sh
+```
 
 ```bash
 # Quick start — the LLM runs these:
