@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Internal docs (not published)
+ARCHITECTURE.md
+
+# Environment
+.env
+
+# Database (keep structure, ignore data)
+database/*.db
+database/*.db-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+/tmp/
+*.swp
+*.swo
