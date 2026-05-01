@@ -150,6 +150,14 @@ Six built-in thinking directives teach the LLM to:
 - Never fill gaps with assumptions
 - Make every finding traceable to source evidence
 
+## Roadmap
+
+- **Domain allow/deny lists** — scope control for spider (allowlist specific .onion domains, block others)
+- **Export redaction** — strip PII, credentials, and sensitive data from STIX/MISP exports
+- **Safe mode** — read-only default (search + fetch only, crawl disabled unless explicitly allowed)
+- **Crawl scheduling** — time-boxed spider runs (stop after N minutes regardless of depth/pages)
+- **Report templates** — customizable output structure per investigation type
+
 ## License
 
 MIT License — see [LICENSE](LICENSE).
